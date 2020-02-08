@@ -36,5 +36,5 @@ Please clone the repo. The build will fail at first, considering the content of 
 To Fix Error
 Checkout a Branch and fix the error by opening buildspec.yml in your repo folder and remove the last line (# 18 "- pip install -e .")
 
-A log file should be generated and stored in the primary S3 Bucket.
+A log file should be generated and stored in the Eventlog S3 Bucket.
 
